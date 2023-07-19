@@ -1,0 +1,15 @@
+<header><h1 class="title">Vehicles</h1></header>
+<article>
+  <header class="bodyHeader">
+    <button
+      *ngIf="component$ | async"
+      type="button"
+      class="button"
+      (click)="onVehicleToogle()"
+    >
+      Toogle Vehicle
+    </button>
+  </header>
+  <section><ng-container #componentContainer></ng-container></section>
+</article>
+<footer></footer>

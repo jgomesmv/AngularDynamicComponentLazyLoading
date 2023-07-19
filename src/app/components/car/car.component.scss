@@ -1,0 +1,22 @@
+:host {
+    border-radius: 5px;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 28px;
+}
+
+
+.title {
+    text-transform: uppercase;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.carGif {
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+}
